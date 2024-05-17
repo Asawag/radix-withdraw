@@ -68,7 +68,7 @@ def send_str_manifest(str_manifest):
 
 
 # Paths to JSON files storing accounts
-json_file_path = Path("accounts_test.json")
+json_file_path = Path("accounts.json")
 
 sender_account = load_account(json_file_path, 1)
 receiver_account = load_account(json_file_path, 2)
